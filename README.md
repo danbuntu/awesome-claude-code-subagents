@@ -161,6 +161,7 @@ Domain-specific technology experts.
 
 - [**api-documenter**](categories/07-specialized-domains/api-documenter.md) - API documentation specialist
 - [**blockchain-developer**](categories/07-specialized-domains/blockchain-developer.md) - Web3 and crypto specialist
+- [**boardgame-designer**](categories/07-specialized-domains/boardgame-designer.md) - Board game design specialist
 - [**embedded-systems**](categories/07-specialized-domains/embedded-systems.md) - Embedded and real-time systems expert
 - [**fintech-engineer**](categories/07-specialized-domains/fintech-engineer.md) - Financial technology specialist
 - [**game-developer**](categories/07-specialized-domains/game-developer.md) - Game development expert

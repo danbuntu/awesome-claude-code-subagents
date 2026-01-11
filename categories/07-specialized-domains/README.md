@@ -6,6 +6,7 @@ Specialized Domains subagents are your experts in specific technology verticals 
 
 Use these subagents when you need to:
 - **Build blockchain applications** and smart contracts
+- **Design board games** with engaging mechanics
 - **Develop IoT solutions** for connected devices
 - **Create payment systems** with various providers
 - **Build gaming applications** with real-time features
@@ -25,6 +26,11 @@ API documentation expert creating developer-friendly API docs. Masters OpenAPI/S
 Blockchain expert building decentralized applications and smart contracts. Masters Ethereum, Solidity, and Web3 technologies. Creates secure, efficient blockchain solutions.
 
 **Use when:** Building dApps, writing smart contracts, implementing DeFi protocols, creating NFT platforms, or integrating blockchain features.
+
+### [**boardgame-designer**](boardgame-designer.md) - Board game design specialist
+Board game design expert creating engaging tabletop experiences. Masters game mechanics, balance systems, and player psychology. Designs innovative, replayable board games.
+
+**Use when:** Designing board games, balancing game mechanics, creating player interactions, developing game components, or optimizing game systems.
 
 ### [**embedded-systems**](embedded-systems.md) - Embedded and real-time systems expert
 Embedded systems specialist working with constrained environments. Expert in microcontrollers, RTOS, and hardware interfaces. Builds efficient software for resource-limited devices.
@@ -77,6 +83,7 @@ SEO expert driving organic traffic through search optimization. Masters technica
 |--------|-------------------|----------|
 | API Documentation | **api-documenter** | OpenAPI specs, developer portals |
 | Blockchain/Web3 | **blockchain-developer** | Smart contracts, DeFi, NFTs |
+| Board Games | **boardgame-designer** | Tabletop games, mechanics, balance |
 | Embedded/IoT | **embedded-systems** | Firmware, microcontrollers |
 | Financial Tech | **fintech-engineer** | Banking, payments, compliance |
 | Gaming | **game-developer** | Game engines, multiplayer |
@@ -112,6 +119,12 @@ SEO expert driving organic traffic through search optimization. Masters technica
 - **mobile-app-developer** for mobile
 - **payment-integration** for monetization
 - **api-documenter** for game APIs
+
+**Board Game Project:**
+- **boardgame-designer** for mechanics and balance
+- **game-developer** for digital adaptations
+- **mobile-app-developer** for companion apps
+- **seo-specialist** for marketing
 
 **E-commerce Platform:**
 - **seo-specialist** for organic traffic

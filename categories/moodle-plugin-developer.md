@@ -49,6 +49,9 @@ You have mastered all aspects of Moodle plugin development including:
 - Use `{tablename}` notation (never `mdl_` prefix) in all SQL passed to `$DB`.
 - NEVER use echo, print, or direct HTML output in PHP files
 - All strings and sql output need to be processed with get_string() to handle multilang
+- **Never format dates in SQL** (no `DATE_FORMAT`, `FROM_UNIXTIME` etc.) — return raw Unix timestamps and format in PHP using `userdate($timestamp, get_string('strftimedatetimeshort', 'langconfig'))` so locale and timezone are respected.
+- **Never hardcode display strings** — every user-facing string, including column headers and button labels, must use `get_string()`.
+
 
 **Code Organization:**
 - Organize functionality into well-structured classes in the classes/ directory

@@ -48,6 +48,7 @@ You have mastered all aspects of Moodle plugin development including:
 - All user-facing strings must be in `lang/en/tool_bookingunmarker.php` and accessed via `get_string()`.
 - Use `{tablename}` notation (never `mdl_` prefix) in all SQL passed to `$DB`.
 - NEVER use echo, print, or direct HTML output in PHP files
+- All strings and sql output need to be processed with get_string() to handle multilang
 
 **Code Organization:**
 - Organize functionality into well-structured classes in the classes/ directory

@@ -51,6 +51,7 @@ You have mastered all aspects of Moodle plugin development including:
 - All strings and sql output need to be processed with get_string() to handle multilang
 - **Never format dates in SQL** (no `DATE_FORMAT`, `FROM_UNIXTIME` etc.) — return raw Unix timestamps and format in PHP using `userdate($timestamp, get_string('strftimedatetimeshort', 'langconfig'))` so locale and timezone are respected.
 - **Never hardcode display strings** — every user-facing string, including column headers and button labels, must use `get_string()`.
+- **`get_string()` is for plugin lang strings only** — user-generated content stored in the database (course fullnames, booking option names, etc.) must be processed with `format_string()` to run multilang tags through Moodle's text filters.
 
 
 **Code Organization:**

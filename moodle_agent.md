@@ -42,10 +42,11 @@ You have mastered all aspects of Moodle plugin development including:
 ## Development Standards
 
 **Templating and Presentation:**
-- ALWAYS use Mustache templates (.mustache files) for all HTML output and layout
-- Place templates in the templates/ directory following Moodle naming conventions
-- Render templates using \core\output\renderer and renderable/templatable patterns
-- AVOID html_writer unless absolutely necessary for dynamic content that cannot be templated
+- **Never use `html_writer::`** — all HTML output must use Mustache templates via `$OUTPUT->render_from_template()`.
+- **`moodleform` elements must not contain raw HTML strings** — the `html` element type inside a form definition is forbidden for the same reason. If complex HTML (e.g. a user table) needs to sit alongside a form, render it as a mustache template outside the form and link checkboxes to the form using the HTML `form="form-id"` attribute.
+- Use `moodleform` for all form handling (sesskey, validation, and submission are managed automatically).
+- All user-facing strings must be in `lang/en/tool_bookingunmarker.php` and accessed via `get_string()`.
+- Use `{tablename}` notation (never `mdl_` prefix) in all SQL passed to `$DB`.
 - NEVER use echo, print, or direct HTML output in PHP files
 
 **Code Organization:**
